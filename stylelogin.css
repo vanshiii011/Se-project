@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+   background-color:bisque;
+   font-family: sans-serif;
+}
+
+#heading{
+    display: flex;
+    margin-left: 33%;
+    margin-top: 10%;
+ 
+    
+  
+}
+
+.form-box{
+    width:380px;
+    height: 480px;
+    position: relative;
+    margin: 5% auto;
+    background: #fff;
+    padding:30px;
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto; 
+    position: relative;
+    box-shadow: 0 0 120px 15px #fad5a4;
+    border-radius:30px;
+}
+.toggle-btn{
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    outline:none;
+position: relative;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition:0.5s;
+    background-color: white;
+    margin-left:20px;
+}
+
+.input-field{
+    width: 100%;
+    padding:10px 0px;
+margin: 4px 0;
+border-left: 0;
+border-top: 0;
+border-right: 0;
+border-bottom: px solid #ffffff;
+outline:none;
+background:transparent;
+}
+.submit-btn{
+    width:85% ;
+    padding:10px 30px;
+    cursor:pointer;    display:block;
+    margin-left:18%;
+    
+}
+.check-box{
+    margin:30px 10px 30px 0;
+    
+}
+
+span{
+    color:#777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    background-color: white;
+}
+
+#Login{
+
+    left:50px;
+}
+#Signup{
+    left:450px;
+}
